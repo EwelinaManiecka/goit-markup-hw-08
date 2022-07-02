@@ -1,0 +1,10 @@
+.buissnes__description {
+    line-height: 1.17;
+    color: var(--bring-shadow);
+    width: 270px;
+    justify-content: center;
+
+    &:not(:last-child) {
+    padding-left: 30px;
+}
+}

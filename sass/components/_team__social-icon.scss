@@ -1,0 +1,15 @@
+.team__social-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+&:focus {
+    fill: #ffffff;
+    background-color: var(--main-color);
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+}

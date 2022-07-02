@@ -1,0 +1,7 @@
+.project__image-space{
+    margin-bottom: 30px;
+
+    &:hover .project__overlay {
+transform: translateY(-100%);
+}
+}

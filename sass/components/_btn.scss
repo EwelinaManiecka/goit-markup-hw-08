@@ -1,0 +1,19 @@
+.button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+    text-align: center;
+    background-color: rgba(245, 244, 250, 1);
+    border-radius: 4px;
+    padding: 6px 22px;
+    border: 0;
+    margin-bottom: 0;
+
+&:hover {
+    background-color: var(--main-color);
+    color: var(--button-text-color);
+    cursor: pointer;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+}

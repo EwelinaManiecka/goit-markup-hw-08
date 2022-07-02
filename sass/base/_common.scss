@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(33, 33, 33, 1);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+:root{
+    --main-color: rgba(33, 150, 243, 1);
+    --dark-shadow: rgba(47, 48, 58, 0.8);
+    --bring-shadow: rgba(117, 117, 117, 1);
+    --button-text-color: rgba(255, 255, 255, 1);
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.71;
+    padding: 0;
+}
+
+address {
+    font-style: normal;
+    line-height: 1.71;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+
+    &:hover {
+    color: var(--main-color);
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: center;
+    padding-bottom: 50px
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.13;
+}

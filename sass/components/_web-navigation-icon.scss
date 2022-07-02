@@ -1,0 +1,13 @@
+.web-navigation__icon {
+    height: 16px;
+    width: 18px;
+    fill: var(--bring-shadow);
+    margin-right: 10px;
+
+&:hover {
+        fill: var(--main-color);
+        cursor: pointer;
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

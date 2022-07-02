@@ -1,0 +1,19 @@
+.team__social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    fill: rgba(175, 177, 184, 1);
+    list-style: none;
+
+
+&:hover {
+    fill: #ffffff;
+    background-color: var(--main-color);
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+}

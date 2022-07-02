@@ -1,0 +1,63 @@
+@import "./utils/_visually-hidden";
+
+@import "./base/common";
+@import "./base/container";
+@import "./base/section";
+@import "./base/img";
+
+@import "./components/web-navigation";
+@import "./components/web-navigation__list";
+@import "./components/web-navigation-icon";
+@import "./components/web-navigation__data-contact";
+@import "./components/web-navigation__item";
+@import "./components/logo";
+@import "./components/web-navigation__item--active-page";
+
+@import "./components/heading";
+@import "./components/button__index";
+
+@import "./components/buissnes";
+@import "./components/buissnes__area-goal";
+@import "./components/buissnes__goal-icon";
+@import "./components/buissnes__goal-title";
+@import "./components/buissnes__description";
+
+@import "./components/occupation";
+@import "./components/occupation__image-space";
+@import "./components/occupation__occupation";
+
+@import "./base/team";
+@import "./components/team__social-list";
+@import "./components/team__image-space";
+@import "./components/team__group";
+@import "./components/team__profession";
+@import "./components/team__contacts-icons";
+@import "./components/team__social-icons";
+@import "./components/_team__social-icon";
+
+@import "./base/clients";
+@import "./components/clients__type";
+@import "./components/client__icon";
+
+
+@import "./base/footer";
+@import "./base/footer__container";
+@import "./components/addres";
+@import "./components/logo-footer";
+@import "./components/newsletter";
+@import "./components/other";
+@import "./components/contact__net-footer";
+
+
+@import "./components/addres";
+@import "./components/btn";
+@import "./components/backdrop";
+@import "./components/modal_btn-close";
+
+@import "./components/project";
+@import "./components/project__box-hide";
+@import "./components/project__overlay";
+@import "./components/project__image-space";
+@import "./components/project__subtitules";
+
+@import "./utils/_visually-hidden";

@@ -1,0 +1,15 @@
+.heading {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background-color: var(--dark-shadow);
+    margin: 0 auto;
+    max-width: 1600px;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url("../images/Img_background.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
