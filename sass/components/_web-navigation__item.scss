@@ -2,3 +2,28 @@
     margin-left: 50px;
     list-style: none;
 }
+
+@media screen and (min-width: 480px) {
+    .web-navigation__item {
+        display: block;
+        border: none;
+        list-style: none;
+        background-image: url("./images/sprite.svg#icon-envelope"); 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .web-navigation__item {
+        display: block;
+        justify-content: space-between;
+        list-style: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .web-navigation__item {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+}
