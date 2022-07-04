@@ -1,8 +1,6 @@
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
-    display: flex;
-    align-items: center;
 }
 
 @media screen and (min-width: 480px) {
@@ -18,8 +16,6 @@
     .section {
         padding-top: 60px;
         padding-bottom: 60px;
-        display: flex;
-        align-items: center;
     }
 }
 

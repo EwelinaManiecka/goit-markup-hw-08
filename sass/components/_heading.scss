@@ -2,7 +2,6 @@
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url("/images/img_background_1x_mobile.jpg"); 
-    height: 400px;
     display: flex;
     align-items: center;
     background-color: var(--dark-shadow);
@@ -45,7 +44,6 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 768px)
 
   @media screen and (min-width: 768px) and (max-width: 1200px) {
   .heading {
-      max-width: 768px;
       background-image: linear-gradient(rgba(47, 48, 58, 0.4),
               rgba(47, 48, 58, 0.4)),
           url("/images/img_background_1x_tablet.jpg"); 
@@ -55,7 +53,6 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 768px)
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
     .heading {
-        max-width: 768px;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
             url("/images/img_background@2x_tablet.jpg"); 
@@ -65,7 +62,6 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 768px)
 
 @media screen and (min-width: 1200px) {
 .heading {
-    height: 600px;
     display: flex;
     align-items: center;
     background-color: var(--dark-shadow);
