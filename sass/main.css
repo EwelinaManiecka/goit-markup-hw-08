@@ -1,3 +1,13 @@
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -94,13 +104,13 @@ h3 {
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .container {
-    max-width: 480px;
+    min-width: 480px;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .container {
-    max-width: 768px;
+    min-width: 768px;
     margin: 0 auto;
   }
 }
@@ -253,7 +263,6 @@ span {
   text-align: center;
   justify-content: center;
   background-repeat: no-repeat;
-  background-size: 480px 400px;
   background-position: center top;
 }
 
@@ -268,25 +277,25 @@ span {
     justify-content: center;
     background-repeat: no-repeat;
     background-position: center top;
-    background-size: 480px 400px;
+    background-size: 100%;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 768px) {
   .heading {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img_background@2x_mobile.jpg");
-    background-size: 480px 400px;
+    background-size: 100%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .heading {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img_background_1x_tablet.jpg");
-    background-size: 768px 400px;
+    background-size: 100%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .heading {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img_background@2x_tablet.jpg");
-    background-size: 768px 400px;
+    background-size: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -300,7 +309,7 @@ span {
     justify-content: center;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Img_background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
   }
 }
 .button_index {
@@ -332,7 +341,7 @@ span {
   margin-right: 8px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 380px) and (max-width: 768px) {
   .buissnes {
     list-style: none;
     padding-left: 0;
@@ -360,14 +369,11 @@ span {
 }
 @media screen and (min-width: 480px) and (max-width: 768px) {
   .buissnes__area-goal {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
     width: 450px;
     height: 120px;
+    background-color: #F5F4FA;
     padding-bottom: 30px;
     margin-left: 15px 15px 15px;
-    background-color: #F5F4FA;
     border-radius: 4px;
   }
 }

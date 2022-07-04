@@ -1,17 +1,21 @@
 
 @media screen and (min-width: 480px) and (max-width: 768px) {
     .buissnes__area-goal {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
+        // list-style: none;
+        // display: flex;
+        // flex-direction: column;
 
         width: 450px;
         height: 120px;
+        background-color: #F5F4FA;
 
         padding-bottom: 30px;
         margin-left: 15px 15px 15px;
-        background-color: #F5F4FA;
         border-radius: 4px;
+
+        display: block;
+        justify-content: center;
+        align-items: center;
 }
 }
 
