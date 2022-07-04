@@ -29,6 +29,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 768px)
     justify-content: center;
     background-repeat: no-repeat;
     background-position: center top;
+    background-size: 480px 400px;
 }
 }
 
@@ -39,6 +40,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 768px)
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
         url("../images/img_background@2x_mobile.jpg"); 
+        background-size: 480px 400px;
   }
 }
 
