@@ -33,7 +33,7 @@
 @import "./components/team__profession";
 @import "./components/team__contacts-icons";
 @import "./components/team__social-icons";
-@import "./components/team__social-icon";
+@import "./components/_team__social-icon";
 
 @import "./base/clients";
 @import "./components/clients__type";
@@ -60,4 +60,4 @@
 @import "./components/project__image-space";
 @import "./components/project__subtitules";
 
-// @import "./utils/_visually-hidden";
+@import "./utils/_visually-hidden";

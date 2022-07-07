@@ -1,31 +1,51 @@
+
 .container {
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
-    .container{
-        min-width: 480px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-    .container{
-        min-width: 768px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 380px) and (max-width: 767px) {
     .container {
-        max-width: 1200px;
-        margin: 0 auto;
+        max-width: 768px;
     }
 }
 
-// .container {
-//     width: 1200px;
-//     margin: 0 auto;
-// }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .container {
+        max-width: 1199px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .container {
+        min-width: 1200px;
+    }
+}
+
+
+.occupation-as{
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 380px) and (max-width: 767px) {
+    .occupation-as{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .occupation-as{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .occupation-as{
+        min-width: 1200px;
+    }
+}
+
+.team-background {
+    background-color: #F5F4FA;
+}

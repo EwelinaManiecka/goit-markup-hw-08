@@ -5,3 +5,21 @@
     padding: 0;
     margin-bottom: 0;
 }
+
+@media screen and (min-width: 380px) and (max-width: 767px) {
+    .occupation {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .occupation {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .occupation {
+        min-width: 1200px;
+    }
+}

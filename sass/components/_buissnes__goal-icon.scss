@@ -1,5 +1,24 @@
 .buissnes__goal-icon {
-    height: 70px;
-    width: 65px;
+    height: 70%;
+    width: 270px;
+}
+
+@media screen and (min-width: 380px) and (max-width: 767px) {
+    .buissnes__goal-icon {
+        width: 449px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .buissnes__goal-icon {
+        width: 449px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .buissnes__goal-icon {
+        width: 270px;
+    }
 }
 

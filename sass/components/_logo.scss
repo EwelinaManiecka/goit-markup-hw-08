@@ -2,20 +2,6 @@
     font-size: 26px;
 }
 
-@media screen and (min-width: 480px) {
-    .all_name span {
-        font-size: 24px;
-        margin-left: 15px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .all_name span {
-        font-size: 26px;
-        margin-left: 215px;
-    }
-}
-
 .all_name span {
     font-family: 'Raleway';
     color: var(--main-color);

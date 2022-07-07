@@ -8,3 +8,43 @@
     padding-left: 30px;
 }
 }
+
+
+@media screen and (min-width: 380px) and (max-width: 767px) {
+    .buissnes__description {
+        line-height: 1.17;
+        color: var(--bring-shadow);
+        width: 270px;
+        justify-content: center;
+    
+        &:not(:last-child) {
+        padding-left: 30px;
+    }
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .buissnes__description {
+        line-height: 1.17;
+        color: var(--bring-shadow);
+        width: 270px;
+        justify-content: center;
+    
+        &:not(:last-child) {
+        padding-left: 30px;
+    }
+}
+}
+
+@media screen and (min-width: 1200px) {
+    .buissnes__description {
+        line-height: 1.17;
+        color: var(--bring-shadow);
+        width: 270px;
+        justify-content: center;
+
+        &:not(:last-child) {
+        padding-left: 30px;
+    }
+}
+}

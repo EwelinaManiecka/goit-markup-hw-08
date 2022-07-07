@@ -25,6 +25,14 @@ h3 {
     margin: 0;
 }
 
+@media screen and (min-width: 480px) {
+    h1,
+    h2,
+    h3 {
+        margin: 0;
+    }
+}
+
 p {
     font-size: 16px;
     line-height: 1.71;
@@ -50,25 +58,32 @@ a {
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    display: flex;
-    font-style: normal;
-
-    text-align: center;
-    letter-spacing: 0.06em;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    color: white;
     text-transform: uppercase;
-
-    color: #FFFFFF;
+    text-align: center;
+    display: flex;
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 1200px),
-screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 1200px),
-screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 1200px) {
-    h1{
-        line-height: 1.66;
+@media screen and (min-width: 480px) {
+    h1 {
+        font-size: 26px;
+        line-height: 1.62;
+        font-weight: 900;
+        color: white;
+        text-transform: uppercase;
         display: flex;
-        font-style: normal;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    h1 {
         font-size: 26px;
     }
+    
 }
 
 @media screen and (min-width: 1200px) {
@@ -77,17 +92,6 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 1200px
         line-height: 1.36;
     }
 }
-// h1 {
-//     font-family: 'Raleway', sans-serif;
-//     font-size: 44px;
-//     font-weight: 900;
-//     line-height: 1.36;
-//     color: white;
-//     text-transform: uppercase;
-//     text-align: center;
-//     display: flex;
-// }
-
 
 h2 {
     font-size: 36px;
@@ -96,14 +100,6 @@ h2 {
     text-align: center;
     padding-bottom: 50px
 }
-
-// h2 {
-//     font-size: 36px;
-//     font-weight: 700;
-//     line-height: 1.17;
-//     text-align: center;
-//     padding-bottom: 50px
-// }
 
 h3 {
     font-size: 18px;

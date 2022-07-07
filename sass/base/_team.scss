@@ -5,4 +5,38 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: F5F4FA;
+}
+
+@media screen and (min-width: 380px) and (max-width: 767px) {
+    .team {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .team {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .team {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
