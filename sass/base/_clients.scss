@@ -14,9 +14,10 @@
 @media screen and (min-width: 380px) and (max-width: 767px) {
     .clients {
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
     padding: 0;
     list-style: none;
+    margin-left: 20px;
     }
 }
 

@@ -4,18 +4,42 @@
     padding-bottom: 30px;
 }
 
-.newsletter{
-    margin-left: 70px;
-    padding-top: 0;
+@media screen and (min-width: 380px) and (max-width: 767px) {
+    .newsletter>h3 {
+        margin-top: 40px;
+    }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .newsletter {
+        max-width: 1199px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .newsletter {
+        min-width: 1200px;
+    }
+}
+
+// .newsletter{
+//     margin-left: 70px;
+//     padding-top: 0;
+// }
+
+.newsletter__contact > label {
+    margin-top: 80px;
+}
+
+
 .newsletter__contact {
-    width: 358px;
+    width: 450px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     display: flex;
-    align-items: center
+    align-items: center;
+    margin-left: -60px
 }
 
 .mail > input{
@@ -48,4 +72,23 @@
 .newsletter__btn {
     margin-top: -34px;
     margin-left: 375px;
+}
+
+@media screen and (min-width: 380px) and (max-width: 767px) {
+    .newsletter__btn {
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .newsletter__btn {
+        max-width: 1199px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .newsletter__btn {
+        min-width: 1200px;
+    }
 }

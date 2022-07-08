@@ -4,9 +4,47 @@ footer {
     padding-bottom: 161px;
 }
 
+
+@media screen and (min-width: 380px) and (max-width: 767px) {
+    footer {
+        height: 603px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    footer {
+        max-width: 1199px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    footer {
+        min-width: 1200px;
+    }
+}
+
 .footer_contact {
     color: var(--bring-shadow);
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
+}
+
+@media screen and (min-width: 380px) and (max-width: 767px) {
+    .footer_contact {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .footer_contact {
+        max-width: 1199px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .footer_contact {
+        min-width: 1200px;
+    }
 }

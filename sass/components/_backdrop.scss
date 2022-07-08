@@ -76,6 +76,24 @@ form > label {
     display: inline;
 }
 
+@media screen and (min-width: 380px) and (max-width: 767px) {
+    form > label {
+        margin-left: -100px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    form > label {
+        max-width: 1199px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    form > label {
+        min-width: 1200px;
+    }
+}
+
 input:focus-within{
     cursor: text;
     outline-color: var(--main-color);
