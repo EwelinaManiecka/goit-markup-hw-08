@@ -76,9 +76,9 @@ form > label {
     display: inline;
 }
 
-@media screen and (min-width: 380px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     form > label {
-        margin-left: -100px;
+        margin-left: auto;
     }
 }
 

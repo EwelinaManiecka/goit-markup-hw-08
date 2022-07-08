@@ -8,8 +8,9 @@
     background-color: F5F4FA;
 }
 
-@media screen and (min-width: 380px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .team {
+        width: 100%;
         padding-left: 0;
         margin-bottom: 0;
         list-style: none;

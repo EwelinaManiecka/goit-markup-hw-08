@@ -17,37 +17,36 @@
 }
 }
 
-@media screen and (min-width: 380px) and (max-width: 767px) {
-    .clients__type {
-        width: 210px;
-        height: 92px;
-    }
-}
+// @media screen and (min-width: 320px) and (max-width: 767px) {
+//     .clients__type {
+//         flex-basis: 50%; - flex-basic: 50% NIE DZIAŁA U CIEBIE!!!
+//     }
+// }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-    .clients__type {
-        background-color: #FFFFFF;
-        width: 170px;
-        height: 92px;
-        border: 1px solid #AFB1B8;
-        border-radius: 4px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        fill: rgba(175, 177, 184, 1);
-    }
-}
+// @media screen and (min-width: 768px) and (max-width: 1199px) {
+//     .clients__type {
+//         background-color: #FFFFFF;
+//         width: 170px;
+//         height: 92px;
+//         border: 1px solid #AFB1B8;
+//         border-radius: 4px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         fill: rgba(175, 177, 184, 1);
+//     }
+// }
 
-@media screen and (min-width: 1200px){
-    .clients__type {
-        background-color: #FFFFFF;
-        width: 170px;
-        height: 92px;
-        border: 1px solid #AFB1B8;
-        border-radius: 4px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        fill: rgba(175, 177, 184, 1);
-    }
-}
+// @media screen and (min-width: 1200px){
+//     .clients__type {
+//         background-color: #FFFFFF;
+//         width: 170px;
+//         height: 92px;
+//         border: 1px solid #AFB1B8;
+//         border-radius: 4px;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         fill: rgba(175, 177, 184, 1);
+//     }
+// }

@@ -14,6 +14,24 @@
     line-height: 1.19;
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .all_name {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .all_name {
+        max-width: 1199px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .all_name {
+        min-width: 1200px;
+    }
+}
+
 span {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;

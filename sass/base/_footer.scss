@@ -5,9 +5,10 @@ footer {
 }
 
 
-@media screen and (min-width: 380px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     footer {
         height: 603px;
+        width: 100%;
     }
 }
 

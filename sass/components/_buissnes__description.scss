@@ -10,12 +10,9 @@
 }
 
 
-@media screen and (min-width: 380px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .buissnes__description {
-        line-height: 1.17;
-        color: var(--bring-shadow);
-        width: 270px;
-        justify-content: center;
+        width: 100%;
     
         &:not(:last-child) {
         padding-left: 30px;

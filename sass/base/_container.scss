@@ -4,8 +4,9 @@
     margin: 0 auto;
 }
 
-@media screen and (min-width: 380px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .container {
+        width: 100%;
         max-width: 768px;
     }
 }
@@ -28,7 +29,7 @@
     margin: 0 auto;
 }
 
-@media screen and (min-width: 380px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .occupation-as{
         display: none;
     }

@@ -11,13 +11,11 @@
     list-style: none;
 }
 
-@media screen and (min-width: 380px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .clients {
-    flex-wrap: wrap;
-    gap: 30px;
-    padding: 0;
-    list-style: none;
-    margin-left: 20px;
+        width: 100%;
+        gap: 30px;
+        margin-left: 20px;
     }
 }
 

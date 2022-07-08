@@ -27,7 +27,7 @@
                     <li class="web-navigation__item"><a href="">Kontakt</a></li>
                 </ul>
                 <!-- Kontakt -->
-                <ul class="web-navigation">
+                <ul class="web-navigation2">
                     <li class="web-navigation__item">
                         <a class="web-navigation__data-contact" href="mailto:info@devstudio.com">
                             <svg class="web-navigation__icon">
@@ -42,6 +42,13 @@
                             </svg>(+48)111111111</a>
                     </li>
                 </ul>
+                <!-- menu hamburger mobile start -->
+                <button class="mobile-menu-btn" type="button">
+                    <svg class="mobile-menu-btn__icon js-open-menu" viewBox="0 0 24 16" aria-expanded="false">
+                        <use href="images/sprite.svg#icon-menu_24px"></use>
+                    </svg>
+                </button>
+                <!-- menu hamburger mobile end -->
             </nav>
         </div>
     </header>
@@ -61,36 +68,36 @@
                             <use href="./images/sprite.svg#icon-antenna"></use>
                         </svg>
                         <h3 class="buissnes__goal-title">Lorem ipsum</h3>
-                        <p class="buissnes__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-                            sem.
-                            Sed non sodales dui. Interdum et malesuada</p>
+                        <p class="buissnes__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
+                            sem. Sed non sodales dui. Interdum et malesuada</p>
                     </li>
                     <li class="buissnes__area-goal">
                         <svg class="buissnes__goal-icon">
                             <use href="./images/sprite.svg#icon-clock"></use>
                         </svg>
                         <h3 class="buissnes__goal-title">Lorem ipsum</h3>
-                        <p class="buissnes__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-                            sem.
-                            Sed non sodales dui. Interdum et malesuada</p>
+                        <p class="buissnes__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
+                            sem. Sed non sodales dui. Interdum et malesuada</p>
                     </li>
                     <li class="buissnes__area-goal">
                         <svg class="buissnes__goal-icon">
                             <use href="./images/sprite.svg#icon-diagram"></use>
                         </svg>
                         <h3 class="buissnes__goal-title">Lorem ipsum</h3>
-                        <p class="buissnes__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-                            sem.
-                            Sed non sodales dui. Interdum et malesuada</p>
+                        <p class="buissnes__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
+                            sem. Sed non sodales dui. Interdum et malesuada</p>
                     </li>
                     <li class="buissnes__area-goal">
                         <svg class="buissnes__goal-icon">
                             <use href="./images/sprite.svg#icon-astronaut"></use>
                         </svg>
                         <h3 class="buissnes__goal-title">Lorem ipsum</h3>
-                        <p class="buissnes__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-                            sem.
-                            Sed non sodales dui. Interdum et malesuada</p>
+                        <p class="buissnes__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
+                            sem. Sed non sodales dui. Interdum et malesuada</p>
                     </li>
                 </ul>
             </div>
@@ -354,9 +361,9 @@
             <div class="newsletter">
                 <h3>Zapisz się do newslettera</h3>
                 <div class="newsletter__contact">
-                    <form>
+                    <form name="newsletter__form" method="post" autocomplete="on">
                     <label class="mail">
-                        <input type="email" name="email" placeholder="E-mail"/>
+                        <input type="email" name="email" placeholder="E-mail" required/>
                     </label>
                     <div class="newsletter__submission">
                         <button type="submit" class="submission newsletter__btn">Zapisz się
@@ -415,7 +422,61 @@
     </form>
     </div>
 </div> -->
+<!-- mobile menu hamburger start -->
+<!-- <div class="mobile-menu js-menu-container is-open" id="mobile-menu">
+    <button class="mobile-menu__close-btn js-close-menu">
+        <svg class="mobile-menu__icon" viewBox="0 0 19 19">
+            <use href="images/sprite.svg#icon-close-black">
+            </use>
+        </svg>
+    </button>
+    <ul class="mobile-menu__list">
+        <li class="mobile-menu__item">
+            <a href="index.html" class="mobile-menu__link mobile-menu__link--active">
+                Portfolio
+            </a>
+        </li>
+        <li class="mobile-menu__item">
+            <a href="portfolio.html" class="mobile-menu__link mobile-menu__link--active">
+                Portfolio
+            </a>
+        </li>
+        <li class="mobile-menu__item">
+            <a href="#" class="mobile-menu__link mobile-menu__link--active">
+                Kontakt
+            </a>
+        </li>
+    </ul>
+    <div class="mobile-menu__contact">
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__item">
+                <a href="tel:+48111111111" class="mobile-menu__link">+48 111 111 111</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="mailto:info@devstudio.com" class="mobile-menu-link">info@devstudio</a>
+            </li>
+        </ul>
+        <ul class="mobile-menu__social-list">
+            <li>
+                <a href="#" class="mobile-menu__sociel-link">Instagram</a>
+            </li>
+            <li>
+                <a href="#" class="mobile-menu__sociel-link">Twitter</a>
+            </li>
+            <li>
+                <a href="#" class="mobile-menu__sociel-link">Facebook</a>
+            </li>
+            <li>
+                <a href="#" class="mobile-menu__sociel-link">LinkedIn</a>
+            </li>
+        </ul>
+    </div>
+</div> -->
     <script src="modal.js"></script>
+    <!-- mobile menu script hamburger -->
+    <script src="js/mobile-menu.js"></script>
+    <!-- scroll stop -->
+    <script src="js/_body-scroll-lock.js"></script>
 </body>
 
 </html>
