@@ -1,13 +1,12 @@
 .clients__type {
-    background-color: #FFFFFF;
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
     display: flex;
     justify-content: center;
-    align-items: center;
     fill: rgba(175, 177, 184, 1);
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    background-color: #FFFFFF;
 
     &:hover {
     fill: var(--main-color);
@@ -20,15 +19,8 @@
 
 @media screen and (min-width: 380px) and (max-width: 767px) {
     .clients__type {
-        background-color: #FFFFFF;
         width: 210px;
         height: 92px;
-        border: 1px solid #AFB1B8;
-        border-radius: 4px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        fill: rgba(175, 177, 184, 1);
     }
 }
 
