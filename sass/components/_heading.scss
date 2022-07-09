@@ -21,11 +21,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
         url("../images/img_background_1x_mobile.jpg");
-        background-repeat: no-repeat;
-        background-color: var(--dark-shadow);
-        background-size: cover;
         height: 400px;
-        background-color: var(--dark-shadow);
     }
 }
 
@@ -66,8 +62,6 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
         url("../images/Img_background.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 }
 
