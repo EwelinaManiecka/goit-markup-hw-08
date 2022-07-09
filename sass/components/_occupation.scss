@@ -20,6 +20,10 @@
 
 @media screen and (min-width: 1200px){
     .occupation {
-        min-width: 1200px;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        margin-bottom: 0;
     }
 }

@@ -2,8 +2,25 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0;
     margin-top: 0;
     margin-bottom: 30px;
     justify-content: space-between;
+}
+
+// @media screen and (max-width: 767px) {
+//     .occupation-as{
+//         display: none;
+//     }
+// }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .project{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .project{
+        justify-content: space-between;
+    }
 }

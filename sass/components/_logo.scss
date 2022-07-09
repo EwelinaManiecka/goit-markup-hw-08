@@ -2,6 +2,13 @@
     font-size: 26px;
 }
 
+@media screen and (min-width: 1200px){
+    .logo{
+        padding-left: 30px;
+        padding-top: 0;
+    }
+}
+
 .all_name span {
     font-family: 'Raleway';
     color: var(--main-color);
