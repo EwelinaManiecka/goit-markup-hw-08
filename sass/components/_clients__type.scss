@@ -1,20 +1,19 @@
 .clients__type {
     display: flex;
     justify-content: center;
-    fill: rgba(175, 177, 184, 1);
 
-//     &:hover {
-//     fill: var(--main-color);
-//     border: 1px solid var(--main-color);
-//     cursor: pointer;
-//     transition: 250ms;
-//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-// }
+    &:hover {
+    fill: var(--main-color);
+    border: 1px solid var(--main-color);
+    cursor: pointer;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .clients__type {
-        flex-basis: 50%;
+        flex-basis: calc(100% / 2);
     }
 }
 

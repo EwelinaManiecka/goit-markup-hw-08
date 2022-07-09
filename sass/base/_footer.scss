@@ -5,7 +5,7 @@ footer {
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     footer {
         height: 603px;
         width: 100%;
@@ -18,11 +18,11 @@ footer {
     }
 }
 
-@media screen and (min-width: 1200px){
-    footer {
-        min-width: 1200px;
-    }
-}
+// @media screen and (min-width: 1200px){
+//     footer {
+//         min-width: 1200px;
+//     }
+// }
 
 .footer_contact {
     color: var(--bring-shadow);
@@ -31,7 +31,7 @@ footer {
     font-style: normal;
 }
 
-@media screen and (min-width: 380px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .footer_contact {
         margin-left: auto;
         margin-right: auto;

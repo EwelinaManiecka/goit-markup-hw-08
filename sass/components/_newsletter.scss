@@ -4,7 +4,7 @@
     padding-bottom: 30px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .newsletter>h3 {
         margin-top: 40px;
     }
@@ -36,7 +36,7 @@
     width: 100%;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .newsletter__contact > label {
         display: none;
     }
@@ -57,9 +57,10 @@
 .newsletter__contact {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .newsletter__contact {
         padding-left: 15px;
         padding-right: 15px;
@@ -110,7 +111,7 @@
     margin-left: 375px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .newsletter__btn {
         margin-top: 25px;
         margin-left: auto;
