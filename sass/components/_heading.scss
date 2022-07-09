@@ -55,7 +55,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px
     .heading {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-        url("/images/img_background@2x_tablet.jpg");
+        url("../images/img_background@2x_tablet.jpg");
     }
 }
 
@@ -77,7 +77,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 .heading {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-        url("/images/Img_background_@2x.jpg");
+        url("../images/Img_background_@2x.jpg");
     }
 }
 // .heading {

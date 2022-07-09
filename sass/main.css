@@ -355,7 +355,7 @@ span {
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px), screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1199px), screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px) {
   .heading {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/img_background@2x_tablet.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/img_background@2x_tablet.jpg");
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
@@ -367,7 +367,7 @@ span {
 }
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .heading {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/Img_background_@2x.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Img_background_@2x.jpg");
   }
 }
 .button_index {
@@ -635,11 +635,7 @@ span {
 @media screen and (max-width: 767px) {
   .team {
     width: 100%;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
     display: block;
-    justify-content: space-between;
     align-items: center;
   }
 }
@@ -649,6 +645,7 @@ span {
     margin-bottom: 0;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
   }
@@ -802,11 +799,8 @@ span {
     background-color: #FFFFFF;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     fill: rgb(175, 177, 184);
-    list-style: none;
+    gap: 30px;
   }
 }
 .clients__type {
@@ -825,7 +819,6 @@ span {
 
 @media screen and (max-width: 767px) {
   .clients__type {
-    flex-basis: 50%;
     border: none;
   }
 
