@@ -1,52 +1,47 @@
 .clients__type {
-    width: 170px;
-    height: 92px;
     display: flex;
     justify-content: center;
     fill: rgba(175, 177, 184, 1);
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    background-color: #FFFFFF;
 
-    &:hover {
-    fill: var(--main-color);
-    border: 1px solid var(--main-color);
-    cursor: pointer;
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+//     &:hover {
+//     fill: var(--main-color);
+//     border: 1px solid var(--main-color);
+//     cursor: pointer;
+//     transition: 250ms;
+//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+// }
 }
 
-// @media screen and (min-width: 320px) and (max-width: 767px) {
-//     .clients__type {
-//         flex-basis: 50%; - flex-basic: 50% NIE DZIAŁA U CIEBIE!!!
-//     }
-// }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .clients__type {
+        flex-basis: 50%;
+    }
+}
 
-// @media screen and (min-width: 768px) and (max-width: 1199px) {
-//     .clients__type {
-//         background-color: #FFFFFF;
-//         width: 170px;
-//         height: 92px;
-//         border: 1px solid #AFB1B8;
-//         border-radius: 4px;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         fill: rgba(175, 177, 184, 1);
-//     }
-// }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .clients__type {
+        background-color: #FFFFFF;
+        width: 170px;
+        height: 92px;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: rgba(175, 177, 184, 1);
+    }
+}
 
-// @media screen and (min-width: 1200px){
-//     .clients__type {
-//         background-color: #FFFFFF;
-//         width: 170px;
-//         height: 92px;
-//         border: 1px solid #AFB1B8;
-//         border-radius: 4px;
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         fill: rgba(175, 177, 184, 1);
-//     }
-// }
+@media screen and (min-width: 1200px){
+    .clients__type {
+        background-color: #FFFFFF;
+        width: 170px;
+        height: 92px;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: rgba(175, 177, 184, 1);
+    }
+}

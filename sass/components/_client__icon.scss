@@ -1,3 +1,25 @@
+.client__area {
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    background-color: transparent;
+    width: 210px;
+    height: 92px;
+    padding: 25px;
+
+    display: flex;
+    justify-self: center;
+    height: 100px;
+    cursor: pointer;
+}
+
+
 .client__icon {
-    color: var(--bring-shadow);
+    fill: rgba(175, 177, 184, 1);
+    width: inherit;
+
+    display: flex;
+    align-self: center;
+
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
