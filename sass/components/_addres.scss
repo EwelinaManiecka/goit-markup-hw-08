@@ -7,3 +7,9 @@
 .contact__net-footer {
     color: rgba(255, 255, 255, 0.6);
 }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .occupation-as{
+        text-align: center;
+    }
+}

@@ -12,7 +12,9 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .newsletter {
-        max-width: 1199px;
+        text-align: center;
+        width: 100%;
+        margin-top: 60px;
     }
 }
 
@@ -37,11 +39,12 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-    .newsletter__form {
-        max-width: 1199px;
-    }
-}
+// @media screen and (min-width: 768px) and (max-width: 1199px) {
+//     .newsletter__form {
+//         margin-left: auto;
+//         margin-right: auto;
+//     }
+// }
 
 @media screen and (min-width: 1200px){
     .newsletter__form {
@@ -106,6 +109,12 @@
     width: 100%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .mail > input {
+width: 450px;
+    }
+}
+
 .newsletter__contact > input:focus{
     outline: none;
     border: var(--bring-shadow);
@@ -115,6 +124,12 @@
     padding-left: 10px;
     display: flex;
     align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .newsletter__submission{
+       margin-left: 0;
+    }
 }
 
 .newsletter__icon {
@@ -138,7 +153,9 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .newsletter__btn {
-        max-width: 1199px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 

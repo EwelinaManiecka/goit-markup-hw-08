@@ -24,7 +24,7 @@ footer {
 //     }
 // }
 
-.footer_contact {
+.footer__contact {
     color: var(--bring-shadow);
     font-size: 14px;
     line-height: 1.71;
@@ -32,15 +32,17 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-    .footer_contact {
+    .footer__contact {
         margin-left: auto;
         margin-right: auto;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-    .footer_contact {
-        max-width: 1199px;
+    .footer__contact {
+        display: block;
+        text-align: center;
+        margin-right: 160px;
     }
 }
 

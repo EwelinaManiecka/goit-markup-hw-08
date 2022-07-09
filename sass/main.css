@@ -95,6 +95,7 @@ h1 {
 @media screen and (min-width: 768px) {
   h1 {
     font-size: 26px;
+    display: flow-root;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -178,6 +179,10 @@ img {
   display: block;
 }
 
+.web-navigation {
+  margin: 0;
+}
+
 .web-navigation2 {
   height: 80px;
   display: flex;
@@ -185,6 +190,29 @@ img {
   align-items: center;
 }
 
+@media screen and (max-width: 767px) {
+  .web-navigation2 {
+    margin-left: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .web-navigation {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .web-navigation2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-left: 0;
+    margin-right: 30px;
+    align-items: flex-start;
+    height: 45px;
+  }
+}
 .web-navigation__list {
   display: flex;
   justify-content: space-between;
@@ -240,11 +268,6 @@ img {
     display: none;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .web-navigation__item {
-    max-width: 1199px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .web-navigation__item {
     min-width: 1200px;
@@ -273,7 +296,7 @@ img {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .all_name {
-    max-width: 1199px;
+    margin-left: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -402,10 +425,7 @@ span {
 
 @media screen and (max-width: 767px) {
   .buissnes {
-    list-style: none;
     display: block;
-    justify-content: space-between;
-    padding-left: 0;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 60px;
@@ -413,9 +433,6 @@ span {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .buissnes {
-    list-style: none;
-    justify-content: space-between;
-    padding-left: 0;
     margin-bottom: 45px;
     flex-wrap: wrap;
     flex-basis: 50%;
@@ -453,13 +470,10 @@ span {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .buissnes__area-goal {
-    width: 270px;
-    height: 120px;
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -904,7 +918,7 @@ footer {
     max-width: 1199px;
   }
 }
-.footer_contact {
+.footer__contact {
   color: var(--bring-shadow);
   font-size: 14px;
   line-height: 1.71;
@@ -912,14 +926,16 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-  .footer_contact {
+  .footer__contact {
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer_contact {
-    max-width: 1199px;
+  .footer__contact {
+    display: block;
+    text-align: center;
+    margin-right: 160px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -942,7 +958,9 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__container {
     max-width: 1199px;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -960,6 +978,11 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .occupation-as {
+    text-align: center;
+  }
+}
 .second_name span {
   font-family: "Raleway";
   color: var(--main-color);
@@ -990,7 +1013,9 @@ span {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .newsletter {
-    max-width: 1199px;
+    text-align: center;
+    width: 100%;
+    margin-top: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1006,11 +1031,6 @@ span {
 @media screen and (max-width: 767px) {
   .newsletter__form {
     width: 100%;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .newsletter__form {
-    max-width: 1199px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1069,6 +1089,11 @@ span {
   width: 100%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .mail > input {
+    width: 450px;
+  }
+}
 .newsletter__contact > input:focus {
   outline: none;
   border: var(--bring-shadow);
@@ -1081,6 +1106,11 @@ span {
   align-items: center;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .newsletter__submission {
+    margin-left: 0;
+  }
+}
 .newsletter__icon {
   width: 24px;
   height: 24px;
@@ -1101,7 +1131,9 @@ span {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .newsletter__btn {
-    max-width: 1199px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1120,7 +1152,7 @@ span {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .other {
-    max-width: 1199px;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1188,6 +1220,11 @@ span {
   color: rgba(255, 255, 255, 0.6);
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .occupation-as {
+    text-align: center;
+  }
+}
 .button {
   font-size: 16px;
   font-weight: 500;
