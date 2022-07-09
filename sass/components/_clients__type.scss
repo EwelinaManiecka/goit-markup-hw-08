@@ -1,6 +1,8 @@
 .clients__type {
     display: flex;
     justify-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid #AFB1B8;
 
     &:hover {
     fill: var(--main-color);
@@ -14,15 +16,17 @@
 @media screen and (max-width: 767px) {
     .clients__type {
         flex-basis: calc(100% / 2);
+        border: none;
+    }
+
+    .clients__type:hover{
+    border: var(--main-color);
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .clients__type {
-        background-color: #FFFFFF;
-        width: 170px;
-        height: 92px;
-        border: 1px solid #AFB1B8;
+        // border: 1px solid #AFB1B8;
         border-radius: 4px;
         display: flex;
         justify-content: center;
