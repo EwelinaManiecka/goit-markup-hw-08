@@ -50,3 +50,21 @@
 .team-background {
     background-color: #F5F4FA;
 }
+
+@media screen and (max-width: 767px) {
+    .team-background{
+        margin-top: -350px;
+    }
+}
+
+// @media screen and (min-width: 768px) and (max-width: 1199px) {
+//     .team-background{
+//         display: none;
+//     }
+// }
+
+// @media screen and (min-width: 1200px){
+//     .team-background{
+//         min-width: 1200px;
+//     }
+// }
