@@ -280,17 +280,17 @@
             <div class="newsletter">
                 <h3>Zapisz się do newslettera</h3>
                 <div class="newsletter__contact">
-                    <form>
-                    <label class="mail">
-                        <input type="email" name="email" placeholder="E-mail"/>
-                    </label>
-                    <div class="newsletter__submission">
-                        <button type="submit" class="submission newsletter__btn">Zapisz się
-                            <svg class="newsletter__icon">
-                                <use href="images/sprite.svg#icon-icon-send"></use>
-                            </svg>
-                        </button>
-                    </form>
+                    <form name="newsletter__form" method="post" autocomplete="on">
+                        <label class="mail">
+                            <input type="email" name="email" placeholder="E-mail" required/>
+                        </label>
+                        <div class="newsletter__submission">
+                            <button type="submit" class="submission newsletter__btn">Zapisz się
+                                <svg class="newsletter__icon">
+                                    <use href="images/sprite.svg#icon-icon-send"></use>
+                                </svg>
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
