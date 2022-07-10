@@ -13,7 +13,7 @@
 }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .clients__type {
         border: none;
     }
@@ -23,14 +23,16 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .clients__type {
-        // border: 1px solid #AFB1B8;
+        border: 1px solid #AFB1B8;
         border-radius: 4px;
         display: flex;
         justify-content: center;
         align-items: center;
         fill: rgba(175, 177, 184, 1);
+        width: 100%;
+        max-width: 380px;
     }
 }
 

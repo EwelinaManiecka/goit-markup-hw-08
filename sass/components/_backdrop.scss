@@ -24,24 +24,24 @@
     border-radius: 4px;
 }
 
-// @media screen and (max-width: 767px) {
-//     .modal {
-//         width: 100%;
-//         max-width: 768px;
-//     }
-// }
+@media screen and (max-width: 768px) {
+    .modal {
+        width: 450px;
+        top: 60%;
+    }
+}
 
-// @media screen and (min-width: 768px) and (max-width: 1199px) {
-//     .modal {
-//         top: 90%;
-//     }
-// }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .modal {
+        top: 80%;
+    }
+}
 
-// @media screen and (min-width: 1200px){
-//     .modal {
-//         top: 50px
-//     }
-// }
+@media screen and (min-width: 1200px){
+    .modal {
+        top: 50%;
+    }
+}
 
 .modal__form>h2 {
     font-size: 20px;
@@ -95,15 +95,15 @@ form > label {
     display: inline;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     form > label {
         margin-left: auto;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     form > label {
-        max-width: 1199px;
+        max-width: 1200px;
     }
 }
 
@@ -157,17 +157,40 @@ input {
     top: 244px;
 }
 
-@media screen and (min-width: 1200px){
-    .modal__icon--person{
+@media screen and (max-width: 768px) {
+    .modal__icon--person {
         top: 130px;
     }
-    &__icon--phone{
-        top: 195px;
+
+    .modal__icon--phone{
+        top: 197px;
     }
-    &__icon--mail {
-        top: 162px;
+
+    .modal__icon--mail{
+        top: 263px
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .modal__icon--phone {
+        top: 178px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .modal__icon--person{
+        top: 129px;
+    }
+
+    .modal__icon--phone{
+        top: 196px;
+    }
+
+    .modal__icon--mail {
+        top: 263px;
+    }
+}
+
 
 textarea {
     resize: none;
@@ -224,15 +247,15 @@ textarea:focus-within{
     pointer-events: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .backdrop {
         top: 30%;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .backdrop {
-        top: 200px;
+        height: 90%;
     }
 }
 

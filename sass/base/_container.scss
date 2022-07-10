@@ -4,16 +4,16 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .container {
         width: 100%;
         max-width: 768px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .container {
-        max-width: 1199px;
+        max-width: 1200px;
     }
 }
 
@@ -29,13 +29,13 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .occupation-as{
         display: none;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .occupation-as{
         display: none;
     }
@@ -51,13 +51,13 @@
     background-color: #F5F4FA;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .team-background{
         margin-top: -350px;
     }
 }
 
-// @media screen and (min-width: 768px) and (max-width: 1199px) {
+// @media screen and (min-width: 768px) and (max-width: 1200px) {
 //     .team-background{
 //         display: none;
 //     }

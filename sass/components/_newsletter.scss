@@ -4,13 +4,13 @@
     padding-bottom: 30px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .newsletter>h3 {
         margin-top: 40px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .newsletter {
         text-align: center;
         width: 100%;
@@ -34,13 +34,14 @@
     margin-right: auto;
 }
 
-// @media screen and (max-width: 767px) {
-//     .newsletter__form {
-//         width: 100%;
-//     }
-// }
+@media screen and (max-width: 768px) {
+    .newsletter__form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
-// @media screen and (min-width: 768px) and (max-width: 1199px) {
+// @media screen and (min-width: 768px) and (max-width: 1200px) {
 //     .newsletter__form {
 //         margin-left: auto;
 //         margin-right: auto;
@@ -58,15 +59,15 @@
     width: 100%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .newsletter__contact > label {
         display: none;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .newsletter__contact > label {
-        max-width: 1199px;
+        max-width: 1200px;
     }
 }
 
@@ -81,7 +82,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .newsletter__contact {
         padding-left: 15px;
         padding-right: 15px;
@@ -89,9 +90,9 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .newsletter__contact {
-        max-width: 1199px;
+        max-width: 1200px;
     }
 }
 
@@ -111,7 +112,7 @@
     width: 100%;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .mail > input {
 width: 450px;
     }
@@ -134,7 +135,7 @@ width: 450px;
     align-items: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .newsletter__submission{
        margin-left: 0;
     }
@@ -151,7 +152,7 @@ width: 450px;
     margin-left: 375px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .newsletter__btn {
         margin-top: 25px;
         margin-left: auto;
@@ -159,7 +160,7 @@ width: 450px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
     .newsletter__btn {
         margin-top: 20px;
         margin-left: auto;
