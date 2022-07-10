@@ -43,11 +43,14 @@
                     </li>
                 </ul>
                 <!-- menu hamburger mobile start -->
-                <button class="mobile-menu-btn" type="button">
-                    <svg class="mobile-menu-btn__icon js-open-menu" viewBox="0 0 24 16" aria-expanded="false">
-                        <use href="images/sprite.svg#icon-menu_24px"></use>
-                    </svg>
-                </button>
+                <div class="mobile-menu js-menu-container is-open" id="mobile-menu">
+                    <button class="mobile-menu-btn" type="button">
+                        <svg class="mobile-menu-btn__icon js-open-menu" viewBox="0 0 19 19">
+                            <use href="images/sprite.svg#icon-menu_24px"></use>
+                        </svg>
+                    </button>
+                </div>
+
                 <!-- menu hamburger mobile end -->
             </nav>
         </div>
@@ -480,11 +483,10 @@
     </div>
 </div>
 <!-- mobile menu hamburger start -->
-<div class="mobile-menu js-menu-container is-open" id="mobile-menu">
-    <button class="mobile-menu__close-btn js-close-menu">
-        <svg class="mobile-menu__icon" viewBox="0 0 19 19">
-            <use href="images/sprite.svg#icon-close-black">
-            </use>
+<!-- <div class="mobile-menu js-menu-container is-open" id="mobile-menu">
+    <button class="mobile-menu-btn" type="button">
+        <svg class="mobile-menu-btn__icon js-open-menu" viewBox="0 0 19 19">
+            <use href="images/sprite.svg#icon-menu_24px"></use>
         </svg>
     </button>
     <ul class="mobile-menu__list">
@@ -528,7 +530,50 @@
             </li>
         </ul>
     </div>
+</div> -->
 </div>
+    <!-- <ul class="mobile-menu__list">
+        <li class="mobile-menu__item">
+            <a href="index.html" class="mobile-menu__link mobile-menu__link--active">
+                Portfolio
+            </a>
+        </li>
+        <li class="mobile-menu__item">
+            <a href="portfolio.html" class="mobile-menu__link mobile-menu__link--active">
+                Portfolio
+            </a>
+        </li>
+        <li class="mobile-menu__item">
+            <a href="#" class="mobile-menu__link mobile-menu__link--active">
+                Kontakt
+            </a>
+        </li>
+    </ul>
+    <div class="mobile-menu__contact">
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__item">
+                <a href="tel:+48111111111" class="mobile-menu__link">+48 111 111 111</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="mailto:info@devstudio.com" class="mobile-menu-link">info@devstudio</a>
+            </li>
+        </ul>
+        <ul class="mobile-menu__social-list">
+            <li>
+                <a href="#" class="mobile-menu__sociel-link">Instagram</a>
+            </li>
+            <li>
+                <a href="#" class="mobile-menu__sociel-link">Twitter</a>
+            </li>
+            <li>
+                <a href="#" class="mobile-menu__sociel-link">Facebook</a>
+            </li>
+            <li>
+                <a href="#" class="mobile-menu__sociel-link">LinkedIn</a>
+            </li>
+        </ul>
+    </div>
+</div> -->
     <script src="modal.js"></script>
     <!-- mobile menu script hamburger -->
     <script src="js/mobile-menu.js"></script>
