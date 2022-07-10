@@ -138,6 +138,18 @@ input {
     top: 244px;
 }
 
+@media screen and (min-width: 1200px){
+    .modal__icon--person{
+        top: 130px;
+    }
+    &__icon--phone{
+        top: 195px;
+    }
+    &__icon--mail {
+        top: 162px;
+    }
+}
+
 textarea {
     resize: none;
     margin-top: 4px;

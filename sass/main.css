@@ -53,6 +53,11 @@ h3 {
     padding-top: 60px;
   }
 }
+@media screen and (min-width: 1200px) {
+  h2 {
+    margin-top: 60px;
+  }
+}
 p {
   font-size: 16px;
   line-height: 1.71;
@@ -524,11 +529,13 @@ span {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .buissnes__goal-icon {
     width: 100%;
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
   .buissnes__goal-icon {
     width: 270px;
+    margin-top: 15px;
   }
 }
 .buissnes__goal-title {
@@ -1396,6 +1403,11 @@ input {
   top: 244px;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal__icon--person {
+    top: 130px;
+  }
+}
 textarea {
   resize: none;
   margin-top: 4px;
