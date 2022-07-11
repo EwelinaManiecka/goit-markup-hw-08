@@ -44,8 +44,8 @@
                 </ul>
                 <!-- menu hamburger mobile start -->
                 <div class="mobile-menu js-menu-container is-open" id="mobile-menu">
-                    <button class="mobile-menu-btn" type="button">
-                        <svg class="mobile-menu-btn__icon js-open-menu" viewBox="0 0 19 19">
+                    <button class="mobile-menu__btn" type="button">
+                        <svg class="mobile-menu__btn__icon js-open-menu" viewBox="0 0 19 19">
                             <use href="images/sprite.svg#icon-menu_24px"></use>
                         </svg>
                     </button>
@@ -151,7 +151,7 @@
                         sizes="(min-width: 1200px) 270px,
                         (min-width: 768px) calc(50vw - 30px),
                         (min-width: 320px) calc(100vw - 30px)"
-                        alt="Młody mężczyzna w okularach" width="270" height="260" />
+                        alt="Młody mężczyzna w okularach" />
                         <h3 class="team__group">John Doe</h3>
                         <p class="team__profession">Product Designer</p>
                         <ul class="team__contacts-icons">
@@ -196,7 +196,7 @@
                         sizes="(min-width: 1200px) 270px,
                         (min-width: 768px) calc(50vw - 30px),
                         (min-width: 320px) calc(100vw - 30px)"
-                        alt="Młoda kobieta w okularach" width="270" height="260" />
+                        alt="Młoda kobieta w okularach"/>
                         <h3 class="team__group">John Doe</h3>
                         <p class="team__profession">Frontend Developer</p>
                         <ul class="team__contacts-icons">
@@ -241,7 +241,7 @@
                         sizes="(min-width: 1200px) 270px,
                         (min-width: 768px) calc(50vw - 30px),
                         (min-width: 320px) calc(100vw - 30px)"
-                        alt="Uśmiechnięty młody mężczyzna bez okularów" width="270" height="260" />
+                        alt="Uśmiechnięty młody mężczyzna bez okularów"/>
                         <h3 class="team__group">John Doe</h3>
                         <p class="team__profession">Marketing</p>
                         <ul class="team__contacts-icons">
@@ -286,7 +286,7 @@
                         sizes="(min-width: 1200px) 270px,
                         (min-width: 768px) calc(50vw - 30px),
                         (min-width: 320px) calc(100vw - 30px)"   
-                        alt="Młody mężczyzna w okularach" width="270" height="260" />
+                        alt="Młody mężczyzna w okularach"/>
                         <h3 class="team__group">John Doe</h3>
                         <p class="team__profession">UI Designer</p>
                         <ul class="team__contacts-icons">
@@ -483,59 +483,65 @@
     </div>
 </div>
 <!-- mobile menu hamburger start -->
-<!-- <div class="mobile-menu js-menu-container is-open" id="mobile-menu">
-    <button class="mobile-menu-btn" type="button">
-        <svg class="mobile-menu-btn__icon js-open-menu" viewBox="0 0 19 19">
-            <use href="images/sprite.svg#icon-menu_24px"></use>
+<div class="mobile-menu" mobile-menu>
+    <div class="modal">
+    <div class="mobile-menu--separation">
+    <button class="mobile-menu__btn--close" type="button">
+        <svg class="mobile-menu__btn__icon--close" viewBox="0 0 32 32">
+            <use href="images/sprite.svg#icon-close-black"></use>
         </svg>
     </button>
     <ul class="mobile-menu__list">
         <li class="mobile-menu__item">
-            <a href="index.html" class="mobile-menu__link mobile-menu__link--active">
+            <a href="index.html" class="mobile-menu__link">
+                Agencja
+            </a>
+        </li>
+        <li class="mobile-menu__item">
+            <a href="portfolio.html" class="mobile-menu__link">
                 Portfolio
             </a>
         </li>
         <li class="mobile-menu__item">
-            <a href="portfolio.html" class="mobile-menu__link mobile-menu__link--active">
-                Portfolio
-            </a>
-        </li>
-        <li class="mobile-menu__item">
-            <a href="#" class="mobile-menu__link mobile-menu__link--active">
+            <a href="#" class="mobile-menu__link">
                 Kontakt
             </a>
         </li>
     </ul>
     <div class="mobile-menu__contact">
-        <ul class="mobile-menu__list">
-            <li class="mobile-menu__item">
-                <a href="tel:+48111111111" class="mobile-menu__link">+48 111 111 111</a>
+        <ul class="mobile-menu__list2">
+            <li class="mobile-menu__item2">
+                <a href="tel:+48111111111" class="mobile-menu__contact">+48 111 111 111</a>
             </li>
-            <li class="mobile-menu__item">
-                <a href="mailto:info@devstudio.com" class="mobile-menu-link">info@devstudio</a>
-            </li>
-        </ul>
-        <ul class="mobile-menu__social-list">
-            <li>
-                <a href="#" class="mobile-menu__sociel-link">Instagram</a>
-            </li>
-            <li>
-                <a href="#" class="mobile-menu__sociel-link">Twitter</a>
-            </li>
-            <li>
-                <a href="#" class="mobile-menu__sociel-link">Facebook</a>
-            </li>
-            <li>
-                <a href="#" class="mobile-menu__sociel-link">LinkedIn</a>
+            <li class="mobile-menu__item2">
+                <a href="mailto:info@devstudio.com" class="mobile-menu__contact">info@devstudio</a>
             </li>
         </ul>
     </div>
-</div> -->
+        <div class="mobile-menu__social">
+        <ul class="mobile-menu__social-list">
+            <li>
+                <a href="#" class="mobile-menu__social-link">Instagram</a>
+            </li>
+            <li>
+                <a href="#" class="mobile-menu__social-link">Twitter</a>
+            </li>
+            <li>
+                <a href="#" class="mobile-menu__social-link">Facebook</a>
+            </li>
+            <li>
+                <a href="#" class="mobile-menu__social-link">LinkedIn</a>
+            </li>
+        </ul>
+        </div>
+    </div>
 </div>
-    <!-- <ul class="mobile-menu__list">
+</div>
+<!-- </div>
+    <ul class="mobile-menu__list">
         <li class="mobile-menu__item">
             <a href="index.html" class="mobile-menu__link mobile-menu__link--active">
-                Portfolio
+                Agencja
             </a>
         </li>
         <li class="mobile-menu__item">
@@ -575,7 +581,7 @@
     </div>
 </div> -->
     <script src="modal.js"></script>
-    <!-- mobile menu script hamburger -->
+    <!-- mobile menu script hamburger-->
     <script src="js/mobile-menu.js"></script>
     <!-- scroll stop -->
     <script src="js/_body-scroll-lock.js"></script>

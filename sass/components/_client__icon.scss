@@ -2,9 +2,6 @@
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     background-color: transparent;
-    width: 210px;
-    height: 92px;
-    padding: 25px;
 
     display: flex;
     justify-self: center;
@@ -23,10 +20,12 @@
 @media screen and (min-width: 768px) and (max-width: 1200px) {
     .client__area {
         border: none;
+        width: 100%;
     }
 
     .client__area:hover{
         border: none;
+        height: auto;
     }
 }
 
@@ -42,7 +41,6 @@
 
 .client__icon {
     fill: rgba(175, 177, 184, 1);
-
     display: flex;
     align-self: center;
 
@@ -55,4 +53,16 @@
     cursor: pointer;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 768px) {
+    .client__icon {
+        max-width: 238px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .client__icon {
+       width: 170px;
+    }
 }
