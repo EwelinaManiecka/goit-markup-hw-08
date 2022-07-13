@@ -1331,7 +1331,7 @@ span {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 528px;
+  width: 450px;
   min-height: 581px;
   background-color: #FFFFFF;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1342,8 +1342,8 @@ span {
 @media screen and (max-width: 768px) {
   .modal {
     top: auto;
-    left: -50%;
-    transform: translateX(50%);
+    left: auto;
+    transform: translateX(10%);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -1532,7 +1532,7 @@ textarea:focus-within {
 
 .win-modal {
   position: fixed;
-  left: 170px;
+  left: auto;
   top: 510px;
   margin-top: -40px;
   padding: 0;
