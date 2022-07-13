@@ -282,6 +282,13 @@ img {
   list-style: none;
 }
 
+.web-navigation__data-contact:hover {
+  fill: var(--main-color);
+  cursor: pointer;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .web-navigation__item {
   margin-left: 50px;
   list-style: none;
@@ -297,6 +304,13 @@ img {
     padding-left: 0;
   }
 }
+.web-navigation__icon {
+  height: 16px;
+  width: 18px;
+  fill: var(--bring-shadow);
+  margin-right: 10px;
+}
+
 .logo {
   font-size: 26px;
 }
