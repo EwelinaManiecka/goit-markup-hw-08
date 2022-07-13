@@ -1722,6 +1722,7 @@ textarea:focus-within {
   background-color: #FFFFFF;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
+  z-index: 999;
 }
 
 @media screen and (min-width: 768px) {

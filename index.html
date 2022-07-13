@@ -29,7 +29,7 @@
                     </button>
                 <!-- </div> -->
 <!-- mobile menu hamburger start -->
-<div class="is-hidden mobile-menu" data-mobile>
+<div class="is-hidden mobile-menu is-open" data-mobile>
     <button class="mobile-menu__btn--close" type="button">
         <svg class="modal__close-btn" data-mobile-close viewBox="0 0 32 32">
             <use href="images/sprite.svg#icon-close-black"></use>
@@ -577,11 +577,12 @@
         </ul>
     </div>
 </div> -->
-    <script src=".modal.js"></script>
+<!-- jak ci nie działa okno w mobile, to trzeba wykasować kropkę przed całą nazwą pliku! -->
+    <script src="modal.js"></script>
     <!-- mobile menu script hamburger-->
-    <script src=".js/mobile-menu.js"></script>
+    <script src="js/mobile-menu.js"></script>
     <!-- scroll stop -->
-    <script src=".js/_body-scroll-lock.js"></script>
+    <script src="js/_body-scroll-lock.js"></script>
 </body>
 
 </html>
