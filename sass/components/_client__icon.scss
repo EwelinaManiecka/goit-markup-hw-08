@@ -25,7 +25,6 @@
 
     .client__area:hover{
         border: none;
-        height: auto;
     }
 }
 
@@ -43,6 +42,7 @@
     fill: rgba(175, 177, 184, 1);
     display: flex;
     align-self: center;
+    height: inherit;
 
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
