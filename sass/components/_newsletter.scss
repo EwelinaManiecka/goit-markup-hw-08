@@ -36,6 +36,7 @@
     .newsletter {
         margin-left: 40px;
         margin-top: 8px;
+        margin-right: auto;
     }
 }
 
@@ -69,15 +70,15 @@
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
     .newsletter__contact > label {
-        max-width: 1200px;
-    }
-}
-
-@media screen and (min-width: 1200px){
-    .newsletter__contact > label {
         min-width: 1200px;
     }
 }
+
+// @media screen and (min-width: 1200px){
+//     .newsletter__contact > label {
+//         min-width: 1200px;
+//     }
+// }
 
 .newsletter__contact {
     display: flex;

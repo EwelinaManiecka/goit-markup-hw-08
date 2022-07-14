@@ -146,7 +146,7 @@ h3 {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    min-width: 1200px;
+    max-width: 1200px;
   }
 }
 .occupation-as {
@@ -166,7 +166,9 @@ h3 {
 }
 @media screen and (min-width: 1200px) {
   .occupation-as {
-    min-width: 1200px;
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
 .team-background {
@@ -234,6 +236,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 60px;
   }
 }
 .web-navigation__list {
@@ -317,7 +320,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .logo {
-    padding-left: 30px;
+    padding-left: 70px;
     padding-top: 0;
   }
 }
@@ -1045,6 +1048,7 @@ footer {
   .footer__container {
     justify-content: space-between;
     padding-left: 30px;
+    width: 100%;
   }
 }
 .contact__net {
@@ -1113,6 +1117,7 @@ span {
   .newsletter {
     margin-left: 40px;
     margin-top: 8px;
+    margin-right: auto;
   }
 }
 .newsletter__contact > label {
@@ -1125,11 +1130,6 @@ span {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .newsletter__contact > label {
-    max-width: 1200px;
-  }
-}
-@media screen and (min-width: 1200px) {
   .newsletter__contact > label {
     min-width: 1200px;
   }
