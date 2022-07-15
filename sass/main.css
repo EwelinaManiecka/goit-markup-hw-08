@@ -1032,6 +1032,7 @@ footer {
     display: block;
     text-align: center;
     margin-right: 160px;
+    padding-left: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1350,6 +1351,21 @@ span {
   opacity: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .backdrop {
+    top: 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .backdrop {
+    height: 90%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .backdrop {
+    top: 0;
+  }
+}
 .modal {
   position: absolute;
   top: 50%;
@@ -1379,9 +1395,6 @@ span {
 @media screen and (min-width: 1200px) {
   .modal {
     top: 50%;
-  }
-  .backdrop {
-    top: 30%;
   }
 }
 .modal__form > h2 {
@@ -1576,6 +1589,7 @@ textarea:focus-within {
 @media screen and (max-width: 768px) {
   .win-modal {
     top: 555px;
+    left: 44px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -1600,21 +1614,6 @@ textarea:focus-within {
   pointer-events: none;
 }
 
-@media screen and (max-width: 768px) {
-  .backdrop {
-    top: 30%;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .backdrop {
-    height: 90%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .backdrop {
-    top: 0;
-  }
-}
 .modal__close-btn {
   position: fixed;
   top: 8px;

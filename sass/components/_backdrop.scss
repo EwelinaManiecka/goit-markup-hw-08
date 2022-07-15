@@ -11,6 +11,24 @@
     opacity: 100%;
 }
 
+@media screen and (max-width: 768px) {
+    .backdrop {
+        top: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .backdrop {
+        height: 90%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .backdrop {
+       top: 0;
+    }
+}
+
 .modal{
     position: absolute;
     top: 50%;
@@ -44,10 +62,6 @@
 @media screen and (min-width: 1200px){
     .modal {
         top: 50%;
-    }
-
-    .backdrop {
-        top: 30%;
     }
 }
 
@@ -266,6 +280,7 @@ textarea:focus-within{
 @media screen and (max-width: 768px) {
     .win-modal {
         top: 555px;
+        left: 44px;
     }
 }
 
@@ -291,22 +306,4 @@ textarea:focus-within{
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
-
-@media screen and (max-width: 768px) {
-    .backdrop {
-        top: 30%;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-    .backdrop {
-        height: 90%;
-    }
-}
-
-@media screen and (min-width: 1200px){
-    .backdrop {
-       top: 0;
-    }
 }
