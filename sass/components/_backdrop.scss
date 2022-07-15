@@ -161,17 +161,17 @@ input {
     top: 244px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .modal__icon--person {
-        top: 130px;
+        top: 132px;
     }
 
     .modal__icon--phone{
-        top: 197px;
+        top: 220px;
     }
 
     .modal__icon--mail{
-        top: 263px
+        top: 286px
     }
 }
 
@@ -183,7 +183,7 @@ input {
 
 @media screen and (min-width: 1200px){
     .modal__icon--person{
-        top: 129px;
+        top: 221px;
     }
 
     .modal__icon--phone{
@@ -238,6 +238,24 @@ textarea:focus-within{
     margin-top: -40px;
     padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .win-modal {
+        top: 555px;
+    }
+}
+
+// @media screen and (min-width: 768px) and (max-width: 1200px) {
+//     .win-modal {
+//         max-width: 1200px;
+//     }
+// }
+
+// @media screen and (min-width: 1200px){
+//     .win-modal {
+//         max-width: 1200px;
+//     }
+// }
 
 .modal__regulation-link {
     color: var(--main-color);
