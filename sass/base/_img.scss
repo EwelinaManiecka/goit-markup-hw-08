@@ -5,3 +5,9 @@ img {
 // .team__image-img {
 //     width: 100%;
 // }
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 100%;
+    }
+}
