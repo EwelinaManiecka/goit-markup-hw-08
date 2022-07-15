@@ -1373,12 +1373,15 @@ span {
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .modal {
-    top: 80%;
+    top: 70%;
   }
 }
 @media screen and (min-width: 1200px) {
   .modal {
     top: 50%;
+  }
+  .backdrop {
+    top: 30%;
   }
 }
 .modal__form > h2 {
@@ -1439,16 +1442,6 @@ form > label {
     margin-left: auto;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  form > label {
-    max-width: 1200px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  form > label {
-    min-width: 1200px;
-  }
-}
 input:focus-within {
   cursor: text;
   outline-color: var(--main-color);
@@ -1493,9 +1486,9 @@ input {
   top: 244px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .modal__icon--person {
-    top: 132px;
+    top: 154px;
   }
   .modal__icon--phone {
     top: 220px;
@@ -1504,14 +1497,31 @@ input {
     top: 286px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) {
+  .modal__icon--person {
+    top: 134px;
+  }
   .modal__icon--phone {
-    top: 178px;
+    top: 200px;
+  }
+  .modal__icon--mail {
+    top: 267px;
+  }
+}
+@media screen and (min-width: 892px) {
+  .modal__icon--person {
+    top: 111px;
+  }
+  .modal__icon--phone {
+    top: 177px;
+  }
+  .modal__icon--mail {
+    top: 244px;
   }
 }
 @media screen and (min-width: 1200px) {
   .modal__icon--person {
-    top: 221px;
+    top: 131px;
   }
   .modal__icon--phone {
     top: 196px;
@@ -1566,6 +1576,16 @@ textarea:focus-within {
 @media screen and (max-width: 768px) {
   .win-modal {
     top: 555px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .win-modal {
+    left: 130px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .win-modal {
+    left: 130px;
   }
 }
 .modal__regulation-link {
