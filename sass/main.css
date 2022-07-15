@@ -1645,17 +1645,11 @@ textarea:focus-within {
     height: 100%;
     bottom: -294px;
   }
-  .project__overlay > p {
-    line-height: 1.17;
-  }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .project__overlay {
     height: 100%;
     bottom: -233px;
-  }
-  .project__overlay > p {
-    line-height: 1.56;
   }
 }
 @media screen and (min-width: 1200px) {
