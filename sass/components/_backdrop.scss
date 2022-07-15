@@ -8,7 +8,6 @@
     transition-property: opacity, transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transform: scale(1.15);
     opacity: 100%;
 }
 
@@ -16,7 +15,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 450px;
+    // width: 450px;
     min-height: 581px;
     background-color: #FFFFFF;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -26,9 +25,13 @@
 
 @media screen and (max-width: 768px) {
     .modal {
-        top: auto;
-        left: auto;
-        transform: translateX(10%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .backdrop{
+        top: 0;
     }
 }
 

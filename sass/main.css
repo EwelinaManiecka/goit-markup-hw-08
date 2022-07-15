@@ -185,6 +185,18 @@ h3 {
   align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 img {
   display: block;
 }
@@ -1335,7 +1347,6 @@ span {
   transition-property: opacity, transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transform: scale(1.15);
   opacity: 100%;
 }
 
@@ -1343,7 +1354,6 @@ span {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 450px;
   min-height: 581px;
   background-color: #FFFFFF;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1353,9 +1363,12 @@ span {
 
 @media screen and (max-width: 768px) {
   .modal {
-    top: auto;
-    left: auto;
-    transform: translateX(10%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .backdrop {
+    top: 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
