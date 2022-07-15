@@ -1622,12 +1622,6 @@ textarea:focus-within {
     width: 100%;
   }
 }
-@media screen and (min-width: 1200px) {
-  .project__box-hide {
-    width: 370px;
-    height: 294px;
-  }
-}
 .project__overlay {
   position: absolute;
   bottom: -294px;
