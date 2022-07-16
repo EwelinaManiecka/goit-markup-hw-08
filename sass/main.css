@@ -292,7 +292,7 @@ img {
   margin-right: 10px;
 }
 .web-navigation__icon:hover {
-  fill: var(--main-color);
+  color: rgb(33, 150, 243);
   cursor: pointer;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -305,8 +305,21 @@ img {
   list-style: none;
 }
 
-.web-navigation__data-contact:hover {
-  fill: var(--main-color);
+.web-navigation__data-contact:hover .web-navigation__icon {
+  fill: rgb(33, 150, 243);
+  cursor: pointer;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.web-navigation__icon {
+  height: 16px;
+  width: 18px;
+  fill: var(--bring-shadow);
+  margin-right: 10px;
+}
+.web-navigation__icon:hover {
+  color: rgb(33, 150, 243);
   cursor: pointer;
   transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1752,16 +1765,6 @@ textarea:focus-within {
   .button-head {
     flex-wrap: wrap;
     gap: 8px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .button-head {
-    max-width: 1200px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .button-head {
-    min-width: 1200px;
   }
 }
 .button-head button:not(last-child) {
